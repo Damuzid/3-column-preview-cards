@@ -1,0 +1,130 @@
+@import url(./reset.css);
+
+/*TAG ELEMENTS*/
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1,
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 4rem;
+    text-transform: uppercase; 
+    margin: 3rem 0 0 4.8rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: 1.9rem 3rem 0 4.8rem;
+}
+a{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+}
+/*CLASS ELEMENTS*/
+.col1,
+.col2,
+.col3{
+    max-width: 306px;
+    margin-top: 17rem;
+    margin-bottom: 8.6rem;
+}
+.col1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.col2{
+    background-color: hsl(184, 100%, 22%);
+}
+.col3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.col1-icon,
+.col2-icon,
+.col3-icon{
+    margin: 4.9rem 0 0 4.8rem;
+}
+.button1,
+.button2,
+.button3{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8.2rem 11.3rem 4.8rem 4.8rem;
+    padding: 1.3rem 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.45rem;
+    font-weight: bold;
+}
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+.attribution{
+    text-align: center;
+    margin-top: 2rem;
+}
+/*HOVER ELEMENTS*/
+.button1:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+.button2:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.button3:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+.button1:hover,
+.button2:hover,
+.button3:hover{
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 95%);
+    margin-bottom: 4.5rem;
+}
+a:hover{
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+/*RESPONSIVE*/
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .col2,
+  .col3{
+    margin-top: 0;
+  }
+  .col1,
+  .col2{
+    margin-bottom: 0;
+  }
+  .col1{
+    border-radius: 10px 10px 0 0;
+  }
+  .col3{
+    border-radius: 0 0 10px 10px;
+  }
+  .button1,
+  .button2,
+  .button3{
+    margin-top: 3rem;
+  }
+}
