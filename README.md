@@ -30,7 +30,7 @@ Users should be able to:
 ![](./images/screenshots/screenshot-mobile.png)
 
 <p align="center">
-  <img width="460" height="300" src="./images/screenshots/screenshot-mobile.png">
+  <img src="./images/screenshots/screenshot-mobile.png">
 </p>
 
 
